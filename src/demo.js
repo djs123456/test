@@ -6,6 +6,7 @@ function get() {
         .get(api)
         .then(response => {
             if (response){
+                console.log(123)
                 // promise异步编程
                 // 先获取api的数据打印出来，再获取api2的数据打印出来
                 console.log(response.data.data);
