@@ -7,7 +7,7 @@ function get() {
         .then(response => {
             if (response){
                 console.log(123)
-                console.log(456)
+                console.log(890)
                 console.log(789)
                 // promise异步编程
                 // 先获取api的数据打印出来，再获取api2的数据打印出来
